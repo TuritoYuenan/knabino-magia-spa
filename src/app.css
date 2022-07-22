@@ -1,16 +1,26 @@
 :root {
-	--bg: #F7A;
+	/* Zeno Rocha's Dracula Color Palette */
 	--dcl-bg: #282a36; --dcl-cl: #44475a;	--dcl-fg: #f8f8f2;
 	--dcl-cm: #6272a4; --dcl-cy: #8be9fd;	--dcl-gr: #50fa7b;
 	--dcl-or: #ffb86c; --dcl-pk: #ff79c6;	--dcl-pr: #bd93f9;
 	--dcl-rd: #ff5555; --dcl-yl: #f1fa8c;
 }
 
-h1, h2, h3, h4, h5, h6, ul, ol {margin: .1em 0}
 body {
-	margin: 0; color: var(--dcl-fg);
+	margin: auto; width: 1000px; color: var(--dcl-fg);
 	background: url(/src/assets/sample.jpg) fixed center no-repeat;
 	background-size: cover;
 	font: normal x-large 'Trebuchet MS', Verdana, sans-serif;
 }
-main {background: #282a36A0;}
+header, main, footer {padding: 1em}
+header, footer {background: var(--dcl-bg)}
+main {background: #282a36A0}
+
+h1, h2, h3, h4, h5, h6, ul, ol {margin: .1em 0}
+a {color: inherit; text-decoration: none}
+
+::selection {background: var(--dcl-pr)}
+
+@media screen and (max-width: 1000px) {
+	body {width: 100%}
+}
