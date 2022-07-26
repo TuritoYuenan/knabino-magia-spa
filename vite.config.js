@@ -5,7 +5,4 @@ import { svelte } from '@sveltejs/vite-plugin-svelte'
 export default defineConfig({
   base: "/knabino-magia/",
   plugins: [svelte()],
-  experimental: {
-    useVitePreprocess: true
-  }
 })
