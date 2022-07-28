@@ -1,12 +1,14 @@
 <script>
+	import Title from "./components/Title.svelte";
 	import Footer from "./components/Footer.svelte";
 	import Symbol from "./components/Symbol.svelte";
 
 	const alt = "Content navigation icon";
 </script>
 
+<Title title="Homepage" />
 <header>
-	<Symbol height="16em"/>
+	<Symbol height="16em" />
 	<h1>Knabino Magia</h1>
 </header>
 <main>
@@ -19,9 +21,9 @@
 	</p>
 	<h2>Contents</h2><br />
 	<section class="grid" id="contents">
-		<a href="#/magical-girls"><img alt={alt} src="icons/magi.svg" />Magical Girls</a>
-		<a href="#/fic-countries"><img alt={alt} src="icons/flag.svg" />Fictional Countries</a>
-		<a href="#/read-thestory"><img alt={alt} src="icons/book.svg" />Read the Story</a>
+		<a href="#/magical-girls"><img {alt} src="icons/magi.svg" />Magical Girls</a>
+		<a href="#/fic-countries"><img {alt} src="icons/flag.svg" />Fictional Countries</a>
+		<a href="#/read-thestory"><img {alt} src="icons/book.svg" />Read the Story</a>
 	</section>
 </main>
 <Footer />
