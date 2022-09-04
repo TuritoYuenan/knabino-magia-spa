@@ -17,5 +17,5 @@
 		<polyline points="0,120 300,120" stroke="#00c"/>
 		<polyline points="0,130 300,130" stroke="#609"/>
 	</g>
-	<path fill="#005" d="m150 129h100l-50-87zm50 29 50-87h-100z"/>
+	<path d="m150 129h100l-50-87zm50 29 50-87h-100z"/>
 </svg>

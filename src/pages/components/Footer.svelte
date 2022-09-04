@@ -10,5 +10,5 @@
 </footer>
 
 <style>
-	footer {padding: 1em; font-size: medium;}
+	footer {font-size: medium;}
 </style>
